@@ -1,0 +1,21 @@
+1)import java.util.Scanner;
+public class StringUcLc {
+	public static void main(String[] args)
+	{
+		Scanner ip = new Scanner(System.in);
+		String s;
+		System.out.printf("enter a string:");
+		s=ip.nextLine();
+		System.out.printf("%s%s",s.toUpperCase(),s.toLowerCase());
+	}
+
+}
+2)public class Substring {
+	public static void main(String[] args) {
+		String s="The quick brown fox jumps over the lazy dog.";
+		String s1=s.replaceAll("fox","cat");
+		System.out.println("Original String: "+s);
+		System.out.println("New String: "+s1);
+	}
+
+}
